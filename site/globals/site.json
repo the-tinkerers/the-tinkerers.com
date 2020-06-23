@@ -1,0 +1,32 @@
+{
+    "name": "The Tinkerers",
+    "url": "https://the-tinkerers.com",
+    "author": {
+        "name": "The Tinkerers",
+        "email": "hello@the-tinkerers.com",
+        "handle": "@the-tinkerers",
+        "avatar": "/images/blog/author.jpg"
+    },
+    "images": {
+        "logo": "/images/logo/logo.svg",
+        "favicon": "/images/favicon.ico",
+        "twitter": "/images/meta/twitter.jpg",
+        "og": "/images/meta/og.jpg"
+    },
+    "social_links": {
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com/"
+    },
+    "address": {
+        "street": "123 Fake Street",
+        "street_2": "Fake Road",
+        "city": "London",
+        "postcode": "LN1 234",
+        "country": "GB"
+    },
+    "contact": {
+        "phone": "867-5309",
+        "mobile": "867-5309",
+        "email": "hello@maxpower.com"
+    }
+}
