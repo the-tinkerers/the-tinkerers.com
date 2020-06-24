@@ -14,17 +14,17 @@
     {# if your site's entire CSS comes in under 14kb, you may want to inline in the head #}
     {# include main.css if in development mode #}
     {% if helpers.environment === "development" %}
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/the-tinkerers.com/css/main.css">
     {% else %}
         {# else, use the minified css file for production #}
-        <link rel="stylesheet" href="/css/main.min.css">
+        <link rel="stylesheet" href="/the-tinkerers.com/css/main.min.css">
     {% endif %}
 
     {# include scripts #}
     {% if helpers.environment === "development" %}
-        <script src="/js/main.js" defer></script>
+        <script src="/the-tinkerers.com/js/main.js" defer></script>
     {% else %}
-        <script src="/js/main.min.js" defer></script>
+        <script src="/the-tinkerers.com/js/main.min.js" defer></script>
     {% endif %}
 
     {# include social meta tags #}

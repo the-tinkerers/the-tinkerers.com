@@ -36,7 +36,7 @@ layout: default
 
                             {%- if item != "blog" -%}
 
-                                <a href="/category/{{ item }}">{{ comma() }} {{ item | capitalize }}</a>
+                                <a href="/the-tinkerers.com/category/{{ item }}">{{ comma() }} {{ item | capitalize }}</a>
 
                             {%- endif -%}
 
@@ -81,7 +81,7 @@ layout: default
                         {%- if item != "blog" -%}
 
                             <li class="mr-2">
-                                <a class="inline-block px-3 py-2 text-white bg-purple-900 text-xs font-semibold rounded hover:text-white hover:bg-orange-500" href="/category/{{ item }}">{{ item | capitalize }}</a>
+                                <a class="inline-block px-3 py-2 text-white bg-purple-900 text-xs font-semibold rounded hover:text-white hover:bg-orange-500" href="/the-tinkerers.com/category/{{ item }}">{{ item | capitalize }}</a>
                             </li>
 
                         {%- endif -%}
@@ -97,8 +97,8 @@ layout: default
         <div class="mt-16 md:px-16">
 
             <div class="flex justify-between mt-16 border-t border-gray-200 pt-12">
-                {% if prevPost %}<p class="text-gray-700 text-sm"><span>Previous:</span> <a href="{{ prevPost.url }}">{{ prevPost.data.title }}</a></p>{% endif %}
-                {% if nextPost %}<p class="text-gray-700 text-sm"><span>Next:</span> <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></p>{% endif %}
+                {% if prevPost %}<p class="text-gray-700 text-sm"><span>Previous:</span> <a href="/the-tinkerers.com{{ prevPost.url }}">{{ prevPost.data.title }}</a></p>{% endif %}
+                {% if nextPost %}<p class="text-gray-700 text-sm"><span>Next:</span> <a href="/the-tinkerers.com{{ nextPost.url }}">{{ nextPost.data.title }}</a></p>{% endif %}
             </div>
         </div>
 

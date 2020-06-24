@@ -56,6 +56,7 @@ module.exports = eleventyConfig => {
         markdownTemplateEngine: 'njk',
         htmlTemplateEngine: 'njk',
         passthroughFileCopy: true,
+        pathPrefix: "/the-tinkerers.com/",
 
         dir: {
             input: 'site',
